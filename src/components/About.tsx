@@ -29,6 +29,8 @@ const About = () => {
             <p className="text-base leading-relaxed text-muted-foreground">{t("about.p1")}</p>
             <p className="text-base leading-relaxed text-muted-foreground">{t("about.p2")}</p>
             <p className="text-base leading-relaxed text-muted-foreground">{t("about.p3")}</p>
+            <p className="text-base leading-relaxed text-muted-foreground">{t("about.p4")}</p>
+            <p className="text-base leading-relaxed text-muted-foreground">{t("about.p5")}</p>
           </motion.div>
 
           <motion.div
