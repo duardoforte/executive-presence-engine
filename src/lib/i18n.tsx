@@ -32,16 +32,24 @@ const t: Translations = {
   // About
   "about.title": { pt: "Sobre Mim", en: "About Me" },
   "about.p1": {
-    pt: "Administrador com habilitação em Comércio Exterior e mais de 20 anos de experiência em Gestão Comercial, Desenvolvimento de Negócios e Negociação Estratégica. Atuo em ambientes B2B, indústria, logística e operações internacionais, com três MBAs — em Logística, Gestão Empresarial (FGV) e Vendas de Alta Performance (PUC/RS).",
-    en: "Business Administrator with a degree in International Trade and over 20 years of experience in Commercial Management, Business Development, and Strategic Negotiation. I operate across B2B, industrial, logistics, and international operations environments, holding three MBAs — in Logistics, Business Management (FGV), and High Performance Sales (PUC/RS).",
+    pt: "Administrador com habilitação em Comércio Exterior e mais de 20 anos de experiência em Gestão Comercial, Desenvolvimento de Negócios e Negociação Estratégica, atuando em ambientes B2B, indústria, logística e operações internacionais. Possui MBA em Logística pela Faci (Faculdade Ideal / Wyden), MBA em Gestão Empresarial pela FGV e MBA em Vendas, Negociação e Resultados de Alta Performance pela PUC/RS.",
+    en: "Business Administrator with a degree in International Trade and more than 20 years of experience in Commercial Management, Business Development and Strategic Negotiation, working in B2B environments, industry, logistics and international operations. Holds an MBA in Logistics from Faci (Faculdade Ideal / Wyden), an MBA in Business Management from FGV and an MBA in Sales, Negotiation and High Performance Results from PUC/RS.",
   },
   "about.p2": {
-    pt: "Minha trajetória combina liderança comercial com profundo conhecimento em compras, supply chain e comércio exterior. Conduzo operações comerciais em mercados altamente competitivos, com forte atuação em expansão de mercado, gestão de Key Accounts, negociação de contratos e desenvolvimento de parcerias de longo prazo.",
-    en: "My career combines commercial leadership with deep expertise in procurement, supply chain, and international trade. I lead commercial operations in highly competitive markets, with a strong track record in market expansion, Key Account management, contract negotiation, and long-term partnership development.",
+    pt: "Executivo com sólida atuação em expansão de mercado, prospecção de novos clientes, gestão de contas estratégicas (Key Accounts), negociação de contratos comerciais e desenvolvimento de parcerias de longo prazo, conduzindo operações comerciais em mercados altamente competitivos.",
+    en: "Executive with solid experience in market expansion, client prospecting, Key Account management, commercial contract negotiation and development of long-term partnerships, leading commercial operations in highly competitive markets.",
   },
   "about.p3": {
-    pt: "Possuo experiência relevante na integração entre áreas comercial, compras e supply chain, conduzindo negociações estratégicas com fornecedores nacionais e internacionais, proporcionando visão ampla da cadeia de valor e maior eficiência nas decisões comerciais.",
-    en: "I bring relevant experience in integrating commercial, procurement, and supply chain functions, leading strategic negotiations with national and international suppliers, providing a broad value chain perspective and greater efficiency in commercial decision-making.",
+    pt: "Experiência na estruturação de estratégias comerciais orientadas a crescimento de receita, aumento de market share e desenvolvimento de novos negócios, com forte atuação na gestão de relacionamento com clientes corporativos e stakeholders estratégicos.",
+    en: "Experience structuring revenue-driven commercial strategies, increasing market share and developing new business opportunities, with strong performance in corporate relationship management and engagement with strategic stakeholders.",
+  },
+  "about.p4": {
+    pt: "Possui também experiência relevante na integração entre áreas comercial, compras e supply chain, conduzindo negociações estratégicas com fornecedores nacionais e internacionais, gestão de contratos e análise de custos, o que proporciona uma visão ampla da cadeia de valor e maior eficiência nas decisões comerciais.",
+    en: "Also experienced in integrating commercial, procurement and supply chain areas, conducting strategic negotiations with national and international suppliers, contract management and cost analysis, providing a broad value chain perspective and greater efficiency in commercial decision-making.",
+  },
+  "about.p5": {
+    pt: "Perfil executivo orientado a resultados, com forte capacidade de negociação, desenvolvimento de negócios, liderança de projetos comerciais e geração de valor para clientes e organizações, atuando de forma estratégica na expansão sustentável das operações.",
+    en: "Results-oriented executive with strong negotiation, business development and commercial leadership capabilities, focused on generating value for clients and organizations and supporting sustainable business growth.",
   },
 
   // Value
