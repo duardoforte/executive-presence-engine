@@ -1,26 +1,32 @@
 import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
-import event1 from "@/assets/rodrigo-event1.png";
-import event2 from "@/assets/rodrigo-event2.png";
-import event3 from "@/assets/rodrigo-event3.png";
+import img1 from "@/assets/intermodal-2023.jpg";
+import img2 from "@/assets/intermodal-ctnr-2023.jpg";
+import img3 from "@/assets/porto-itb-reicon.jpg";
+import img4 from "@/assets/treinamento-comercial-2022.jpg";
+import img5 from "@/assets/visita-cd-mateus-2017.jpg";
 
 const captions = {
   pt: [
-    "Feira de Logística – Manaus, AM",
-    "Encontro profissional do setor",
-    "Representação comercial – Axis Shipping World Cargo",
+    "Participação na Intermodal South America 2023, em São Paulo, um dos principais eventos do setor de logística, transporte e comércio exterior.",
+    "Presença profissional na Intermodal 2023, reforçando atuação conectada ao ambiente logístico, operações intermodais e networking setorial.",
+    "Atuação em ambiente operacional e portuário, com vivência prática ligada à logística, movimentação e operações.",
+    "Registro de treinamento comercial, reforçando experiência com desenvolvimento de equipes, alinhamento estratégico e capacitação profissional.",
+    "Visita técnica a centro de distribuição, evidenciando vivência prática em armazenagem, operação logística e fluxo de abastecimento.",
   ],
   en: [
-    "Logistics Fair – Manaus, AM",
-    "Professional industry meeting",
-    "Commercial representation – Axis Shipping World Cargo",
+    "Participation in Intermodal South America 2023 in São Paulo, one of the leading events in logistics, transportation, and foreign trade.",
+    "Professional presence at Intermodal 2023, reinforcing strong connection with logistics, intermodal operations, and industry networking.",
+    "Professional experience in an operational and port environment, with practical exposure to logistics, cargo movement, and operations.",
+    "Commercial training moment, highlighting experience in team development, strategic alignment, and professional capability building.",
+    "Technical visit to a distribution center, demonstrating practical exposure to warehousing, logistics operations, and supply flow routines.",
   ],
 };
 
 const EventsSection = () => {
   const { t, lang } = useLang();
   const caps = captions[lang];
-  const images = [event1, event2, event3];
+  const images = [img1, img2, img3, img4, img5];
 
   return (
     <section className="section-padding bg-background">
@@ -44,16 +50,16 @@ const EventsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="group overflow-hidden rounded-lg"
+              className={`group overflow-hidden rounded-lg ${i >= 3 ? "sm:col-span-1 lg:col-span-1" : ""}`}
             >
-              <div className="aspect-[4/3] overflow-hidden bg-muted">
+              <div className="aspect-[4/3] overflow-hidden bg-muted rounded-lg">
                 <img
                   src={img}
                   alt={caps[i]}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <p className="text-sm text-muted-foreground mt-3 font-medium">{caps[i]}</p>
+              <p className="text-sm text-muted-foreground mt-3 font-medium leading-snug">{caps[i]}</p>
             </motion.div>
           ))}
         </div>

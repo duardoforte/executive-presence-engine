@@ -3,19 +3,20 @@ import { motion } from "framer-motion";
 
 const companies = [
   "Axis Shipping World Cargo",
-  "Grupo Reicon",
-  "Suporte Smart",
+  "Grupo Reicon – Rebelo Ind. e Com. de Navegação",
+  "Suporte Smart – Franquias",
   "Grupo Mateus",
-  "Lugpet / Duelo",
-  "N&A Consultores",
+  "Lugpet Distribuidora / Duelo",
+  "N&A Consultores e Associados",
+  "Auto Posto Camaleão",
   "Biopalma da Amazônia",
   "MSC – Mediterranean Shipping",
   "Governo do Estado do Pará",
   "Sinobras – Siderúrgica Norte Brasil",
-  "Tramontina",
+  "LBH Group – Brazshipping",
+  "Tramontina Belém S/A",
   "Grupo Ponte Irmão – Esplanada",
-  "Wilson Sons",
-  "LBH Group",
+  "Wilson Sons Agência Marítima",
 ];
 
 const CompaniesSection = () => {
