@@ -5,7 +5,7 @@ import logoAxis from "@/assets/logos/axis-shipping.png";
 import logoReicon from "@/assets/logos/grupo-reicon.png";
 import logoSuporte from "@/assets/logos/suporte-smart.png";
 import logoMateus from "@/assets/logos/grupo-mateus.png";
-import logoLugpet from "@/assets/logos/lugpet.png";
+import logoDuelo from "@/assets/logos/lugpet.png";
 import logoNA from "@/assets/logos/na-consultores.png";
 import logoAutoPosto from "@/assets/logos/auto-posto.png";
 import logoBiopalma from "@/assets/logos/biopalma.png";
@@ -18,20 +18,20 @@ import logoPonte from "@/assets/logos/grupo-ponte.png";
 import logoWilson from "@/assets/logos/wilson-sons.png";
 
 const companies = [
-  { name: "Axis Shipping World Cargo", logo: logoAxis },
+  { name: "Axis Shipping | World Cargo", logo: logoAxis },
   { name: "Grupo Reicon", logo: logoReicon },
   { name: "Suporte Smart", logo: logoSuporte },
   { name: "Grupo Mateus", logo: logoMateus },
-  { name: "Lugpet / Duelo", logo: logoLugpet },
+  { name: "Bebidas Duelo", logo: logoDuelo },
   { name: "N&A Consultores", logo: logoNA },
   { name: "Auto Posto Camaleão", logo: logoAutoPosto },
-  { name: "Biopalma da Amazônia", logo: logoBiopalma },
-  { name: "MSC – Mediterranean Shipping", logo: logoMSC },
+  { name: "Biopalma Da Amazonia", logo: logoBiopalma },
+  { name: "MSC Mediterranean Shipping", logo: logoMSC },
   { name: "Governo do Estado do Pará", logo: logoGoverno },
-  { name: "Sinobras", logo: logoSinobras },
+  { name: "SINOBRAS", logo: logoSinobras },
   { name: "LBH Group", logo: logoLBH },
   { name: "Tramontina", logo: logoTramontina },
-  { name: "Grupo Ponte Irmão – Esplanada", logo: logoPonte },
+  { name: "Grupo Ponte", logo: logoPonte },
   { name: "Wilson Sons", logo: logoWilson },
 ];
 
