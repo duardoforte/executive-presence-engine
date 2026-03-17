@@ -6,17 +6,14 @@ const Footer = () => {
   const { t, lang, setLang } = useLang();
 
   return (
-    <footer className="bg-navy py-12">
+    <footer className="bg-navy py-8">
       <div className="section-container">
         {/* Brand signature */}
-        <div className="flex justify-center mb-10">
-          <div className="w-px h-8 bg-primary-foreground/10 mb-6" />
-        </div>
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-6">
           <img
             src={brandLogo}
             alt="Rodrigo Pinheiro – Personal Brand"
-            className="h-16 md:h-20 w-auto rounded-lg opacity-90"
+            className="h-12 md:h-16 w-auto rounded-lg opacity-90"
           />
         </div>
 
