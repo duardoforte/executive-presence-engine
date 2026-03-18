@@ -73,11 +73,11 @@ const Hero = () => {
             className="order-1 md:order-2 flex justify-center"
           >
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 lg:w-[420px] lg:h-[420px] rounded-full overflow-hidden border-4 border-gold/40 shadow-2xl">
+              <div className="w-64 h-64 md:w-80 md:h-80 lg:w-[420px] lg:h-[420px] rounded-full overflow-hidden shadow-2xl">
                 <img
                   src={profileImg}
                   alt="Rodrigo Bandeira Pinheiro"
-                  className="w-full h-full object-cover object-[center_15%]"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gold/20 rounded-full blur-2xl" />

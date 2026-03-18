@@ -40,11 +40,11 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex justify-center"
           >
-            <div className="w-56 h-56 md:w-full md:h-auto md:max-w-xs rounded-xl overflow-hidden shadow-lg">
+            <div className="w-56 h-56 md:w-full md:h-auto md:max-w-xs rounded-xl overflow-hidden shadow-lg group">
               <img
                 src={fullImg}
                 alt="Rodrigo Pinheiro"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
             </div>
           </motion.div>

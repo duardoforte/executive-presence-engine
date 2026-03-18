@@ -6,34 +6,36 @@ const Footer = () => {
   const { t, lang, setLang } = useLang();
 
   return (
-    <footer className="bg-navy py-8">
+    <footer className="bg-navy py-6">
       <div className="section-container">
-        {/* Brand signature */}
-        <div className="flex justify-center mb-6">
-          <img
-            src={brandLogo}
-            alt="Rodrigo Pinheiro – Personal Brand"
-            className="h-12 md:h-16 w-auto rounded-lg opacity-90"
-          />
-        </div>
-
-        <div className="border-t border-primary-foreground/10 pt-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="text-center md:text-left">
-              <p className="font-display text-lg font-semibold text-primary-foreground">
+        <div className="border-t border-primary-foreground/10 pt-6">
+          <div className="flex items-center justify-between gap-4">
+            {/* Left: Name */}
+            <div className="text-left min-w-0">
+              <p className="font-display text-sm md:text-base font-semibold text-primary-foreground truncate">
                 Rodrigo Bandeira Pinheiro
               </p>
-              <p className="text-xs text-primary-foreground/50 mt-1">
+              <p className="text-[10px] text-primary-foreground/50 mt-0.5">
                 © {new Date().getFullYear()} {t("footer.rights")}
               </p>
             </div>
 
-            <div className="flex items-center gap-6">
+            {/* Center: Brand */}
+            <div className="flex-shrink-0">
+              <img
+                src={brandLogo}
+                alt="Rodrigo Pinheiro – Personal Brand"
+                className="h-10 md:h-12 w-auto rounded opacity-90"
+              />
+            </div>
+
+            {/* Right: Links + Lang */}
+            <div className="flex items-center gap-3 md:gap-4">
               <a
                 href="mailto:rpinheiro.brazil@gmail.com"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
               >
-                <Mail size={18} />
+                <Mail size={16} />
               </a>
               <a
                 href="https://www.linkedin.com/in/rodrigo-bandeira-pinheiro/"
@@ -41,7 +43,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-primary-foreground/60 hover:text-primary-foreground transition-colors"
               >
-                <Linkedin size={18} />
+                <Linkedin size={16} />
               </a>
               <div className="flex items-center gap-1 border border-primary-foreground/20 rounded-full px-1 py-0.5">
                 <button
